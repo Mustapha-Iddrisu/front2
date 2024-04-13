@@ -83,7 +83,7 @@ function AllUsers() {
 
   return (
     <div
-      className="d-flex justify-content-center align-items-center p-4 row"
+      className="d-flex justify-content-center align-items-center p-5 vh-100 row"
       id="mainbody">
       <div className=" p-3 d-flex rounded col-auto row bg-white">
         <div className="d-flex bg-dark bg-gradient d-flex p-2 justify-content-between mb-2 text-black">
