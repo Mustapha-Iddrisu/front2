@@ -99,7 +99,7 @@ function AllUsers() {
               <tr>
                 <th>&#8470;</th>
                 <th>Name</th>
-                <th>Email</th>
+{/*                 <th>Email</th> */}
 {/*                 <th>City</th> */}
               </tr>
             </thead>
@@ -111,7 +111,7 @@ function AllUsers() {
                     <tr key={user._id}>
                       <td>{index+1}</td>
                       <td>{user.name}</td>
-                      <td>{user.email}</td>
+{/*                       <td>{user.email}</td> */}
 {/*                       <td>{user.city}</td> */}
                       <Link to={`/update-user/${user._id}`} className="btn btn-success"><FaUserEdit /></Link>
                       <button className="btn btn-outline-danger m-1"
