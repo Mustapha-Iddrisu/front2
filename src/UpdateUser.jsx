@@ -105,7 +105,7 @@ import Swal from "sweetalert2";
                 className="form-control"
                 required
                 type="text"
-                placeholder={name}
+                value={name}
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
@@ -114,7 +114,7 @@ import Swal from "sweetalert2";
               <input
                 className="form-control"
                 type="text"
-                placeholder={email}
+                value={email}
                 onChange={(e) => alert("email cannot be updated")}
               />
             </div>
